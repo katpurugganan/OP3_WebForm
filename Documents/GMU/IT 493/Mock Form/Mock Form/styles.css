@@ -1,0 +1,140 @@
+﻿body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a:link {
+	color: #990000;
+}
+a:visited {
+	color: #990000;
+}
+a:hover {
+	color: #990000;
+}
+a:active {
+	color: #990000;
+}
+
+.required{
+	color: red;
+}
+
+#container{
+	width: 900px;/* standard width desired for page */;
+	margin-left: auto;/* automatically centers the conatiner */;
+	margin-right: auto;/* automatically centers the containter */;
+	height: 100%;
+	margin-bottom: 10px;
+	color: #444;
+	padding-top: 200px;
+}
+
+body {
+	background-color:#FFFFFF;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	line-height: 1.5;
+	color: #333333;
+}
+.logo_page_head {
+	font-family:verdana, Arial, sans serif;
+	width:100%;
+	float: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main_text {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:710px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: 231px;
+	font-size: 14px;
+	color: #666666;
+}
+.navigation {
+	font-family:verdana, Arial, sans serif;
+	width:100%;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#003366;
+}
+.flash_row {
+	font-family:verdana, Arial, sans serif;
+	width:100%;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.middle_col {
+	font-family: verdana, Arial, sans serif;
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #AEAE00;
+}
+.uppr_right_col {
+	font-family:verdana, Arial, sans serif;
+	width:190px;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main_three_col {
+	font-family:verdana, Arial, sans serif;
+	width:660px;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: 25;
+	padding-left: 40px;
+}
+.footer {
+	
+	font-family:verdana, Arial, sans serif;
+	width:960px;
+	float: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.col_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.col_Head_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #003366;
+}
+.third_col {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+.blue_box_text_holder {
+	font-family:verdana, Arial, sans serif;
+	width:176px;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
