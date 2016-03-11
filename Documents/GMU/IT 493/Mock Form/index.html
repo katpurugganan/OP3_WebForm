@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<link href="content.css" rel="stylesheet" type="text/css" />
+<link href="footer.css" rel="stylesheet" type="text/css" />
+<link href="/includes/cfapps.css" rel="stylesheet" type="text/css" />
+
+<title>Register</title>
+</head>
+
+<body>
+<div class="logo_page_head" align="center"><img src="images/logo_mast.gif" alt="Fairfax County Office of Public and Private Partnerships" 
+	width="960" height="98" border="0" usemap="#Map2" /><map name="Map2" id="Map2"><area shape="rect" 
+	coords="3,3,15,25" href="#content-anchor" alt="skip link to content" /><area shape="rect" coords="860,8,943,89"
+	 href="http://www.fairfaxcounty.gov" target="_new" alt="Fairfax County Government Homepage" />
+	 <area shape="rect" coords="18,7,193,93" href="default.html" alt="Office of Public Private Partnerships" />
+	 </map>
+</div>
+
+<div class="navigation" align="center"><div id="FWTableContainer1474994241">
+	 <table border="0" cellpadding="0" cellspacing="0" width="960"><tr><td><a href="javascript:;" 
+	 onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuShowMenu('MMMenuContainer1021115236_0', 'MMMenu1021115236_0',39,32,'navbar_r1_c1');">
+	 <img name="navbar_r1_c1" src="images/images/navbar_01.gif" width="153" height="32" border="0" id="navbar_r1_c1" alt="" /></a></td><td><a href="javascript:;" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuShowMenu('MMMenuContainer1021115345_1', 'MMMenu1021115345_1',33,32,'navbar_r1_c2');"><img name="navbar_r1_c2" src="images/images/navbar_02.gif" width="173" height="32" border="0" id="navbar_r1_c2" alt="" /></a></td><td><a href="javascript:;" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuShowMenu('MMMenuContainer1021115436_2', 'MMMenu1021115436_2',31,32,'navbar_r1_c3');"><img name="navbar_r1_c3" src="images/images/navbar_03.gif" width="221" height="32" border="0" id="navbar_r1_c3" alt="" /></a></td><td><a href="javascript:;" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuShowMenu('MMMenuContainer1021115512_3', 'MMMenu1021115512_3',34,32,'navbar_r1_c4');"><img name="navbar_r1_c4" src="images/images/navbar_04.gif" width="179" height="32" border="0" id="navbar_r1_c4" alt="" /></a></td><td><a href="javascript:;" onmouseout="MM_menuStartTimeout(1000);" onmouseover="MM_menuShowMenu('MMMenuContainer1021115556_4', 'MMMenu1021115556_4',34,32,'navbar_r1_c5');"><img name="navbar_r1_c5" src="images/images/navbar_05.gif" width="234" height="32" border="0" id="navbar_r1_c5" alt="" /></a></td><td><img src="images/spacer.gif" width="1" height="32" border="0" alt="" /></td></tr></table><div id="MMMenuContainer1021115236_0">
+
+</div>
+
+
+<form name="CFForm_1" id="CFForm_1" action="#" method="post">
+   
+   <h1>Company / Business Name <span class="required">*</span></h1>
+<p><input name="nameC" id="nameC"  type="text" size="100"  /></p>
+<h1>Contact Information</h1>
+<table width="556" border="0" cellpadding="5" cellspacing="0">
+   <tr>
+      <td width="88" class="right-align"><p>Your Name <span class="required">*</span></p></td>
+      <td width="448"><p>
+         <input name="ab_contact_name" id="ab_contact_name"  type="text" size="50"  />
+      </p></td>
+      
+   </tr>
+   <tr>
+      <td class="right-align"><p>Your Title <span class="required">*</span></p></td>
+      <td><p>
+         <input name="ab_contact_title" id="ab_contact_title"  type="text" size="50"  />
+      </p></td>
+      
+   </tr>
+   <tr>
+      <td class="right-align"><p>Phone  <span class="required">*</span></p></td>
+      <td><p>
+         <input name="phone_number" type="text" id="phone_number3"  onkeyup="mask_onValueChanged();" onfocus="mask_onSetFocus(this, '999-999-9999');" onblur="mask_onKillFocus();" />
+         &nbsp;Format: 999-999-9999</p></td>
+   </tr>
+   <tr>
+      <td class="right-align"><p>Email <span class="required">*</span></p></td>
+      <td><p>
+         <input name="email_address" id="email_address"  type="text" size="30"  />
+      </p></td>
+   </tr>
+   
+   
+   
+   
+   
+   
+</table>
+<h1>About Your Company / Business</h1>
+<table width="560" border="0" cellpadding="5" cellspacing="0">
+   <tr>
+      <td width="88" class="right-align"><p>Address <span class="required">*</span></p></td>
+      <td width="452"><p>
+         <input name="AddressT" id="AddressT"  type="text" size="60"  />
+      </p></td>
+   </tr>
+   <tr>
+      <td class="right-align"><p>City <span class="required">*</span></p></td>
+      <td><p>
+         <input name="city" id="city"  type="text" size="25"  />
+      </p></td>
+   </tr>
+   <tr>
+      <td class="right-align"><p>Zip Code <span class="required">*</span></p></td>
+      <td><p>
+         <input name="zipcode" id="zipcode"  type="text" size="15"  />
+      </p></td>
+   </tr>
+   
+</table>
+<p>&nbsp;</p>
+<h3>How many employees from your company work in Fairfax County? <span class="required">*</span></h3>
+<p>
+   <input name="employees_in_FC" id="employees_in_FC"  type="radio" value="0-10" />
+0 - 10 </p>
+<p>
+   <input name="employees_in_FC" id="employees_in_FC"  type="radio" value="11-50" />
+11 - 50 </p>
+<p>
+   <input name="employees_in_FC" id="employees_in_FC"  type="radio" value="51-200" />
+51 - 200</p>
+<p>
+   <input name="employees_in_FC" id="employees_in_FC"  type="radio" value="200+" />
+200+</p>
+<h3>Estimate how many employees from your company would consider engaging in a partnership. <span class="required">*</span></h3>
+<p><input name="employees_in_Partnership" id="employees_in_Partnership"  type="text" maxlength="4"  size="15"  />
+(Please enter a whole number.)</p>
+<h3>If you are already partnered with a school or office in FCPS, please tell us which one(s) and the activities of the partnership.</h3>
+<p>
+   <textarea name="already_Partnered"  id="already_Partnered" rows="3" cols="60" > </textarea>
+</p>
+<h1>Your Interests</h1>
+<h3>Is there a particular timeframe that you prefer to start a partnership? <span class="required">*</span></h3>
+
+<p>
+   <input name="timeframe" id="timeframe"  type="checkbox" value="January - March" /> January - March</p>
+<p>
+   <input name="timeframe" id="timeframe"  type="checkbox" value="April - June" />
+April - June </p>
+<p>
+   <input name="timeframe" id="timeframe"  type="checkbox" value="July - September" />
+July - September </p>
+<p>
+   <input name="timeframe" id="timeframe"  type="checkbox" value="October - December" />
+October - December</p>
+<p>
+   <input name="timeframe" id="timeframe"  type="checkbox" value="Anytime" />
+Anytime</p>
+<h3>Do you have a preference for a specific school level population? <span class="required">*</span></h3>
+<table border="0" cellspacing="0" cellpadding="0">
+   <tr>
+      <td width="179" ><p>
+         <input name="level_preference" id="level_preference"  type="checkbox" value="Pre Kindergarten" />
+         Pre Kindergarten </p></td>
+      <td width="146"><p>
+         <input name="level_preference" id="level_preference"  type="checkbox" value="No Preference" />
+         No Preference </p></td>
+   </tr>
+   <tr>
+      <td><p>
+         <input name="level_preference" id="level_preference"  type="checkbox" value="Elementary" />
+         Elementary </p></td>
+      <td><p>&nbsp;</p></td>
+   </tr>
+   <tr>
+      <td><p>
+         <input name="level_preference" id="level_preference"  type="checkbox" value="Middle" />
+         Middle </p></td>
+      <td><p>&nbsp;</p></td>
+   </tr>
+   <tr>
+      <td><p>
+         <input name="level_preference" id="level_preference"  type="checkbox" value="High" />
+         High </p></td>
+      <td><p>&nbsp;</p></td>
+   </tr>
+   <tr>
+      <td><p>
+         <input name="level_preference" id="level_preference"  type="checkbox" value="Adult" />
+         Adult </p></td>
+      <td><p>&nbsp;</p></td>
+   </tr>
+</table>
+<h3>Do you have a particular area of interest? <span class="required">*</span></h3>
+<h5>(Hold CTRL and select to choose mutiple areas)</h5>
+<table border="0" cellspacing="0" cellpadding="0">
+<select name="interest" multiple>
+  <option value="advocacy">Advocacy</option>
+  <option value="animalrelated">Animal Related</option>
+  <option value="artscraftsandgames">Arts Crafts and Games</option>
+  <option value="civicsandcommunity">Civic and Community</option>
+  <option value="computersandtechnology">Computers & Technology</option>
+  <option value="libraries">Libraries</option>
+  <option value="FILLER">Employment</option>
+  <option value="FILLER">Health Care</option>
+  <option value="FILLER">Houseing & Shelter</option>
+  <option value="FILLER">Office & Administrative Work</option>
+  <option value="FILLER">Translation & Interpretation</option>
+  <option value="FILLER">Crime Prevention & Public Safety</option>
+  <option value="FILLER">Culture, History</option>
+  <option value="FILLER">Domestic Violence & Sexual Assault</option>
+  <option value="FILLER">Emergency Preparedness & Response</option>
+  <option value="FILLER">Environment, Parks</option>
+  <option value="FILLER">Finances, Accounting & Tax Preparation</option>
+  <option value="FILLER">Food, Agriculture & Nutrition</option>
+  <option value="FILLER">Mental Health & Crisis Prevention</option>
+  <option value="FILLER">Services for Children</option>
+  <option value="FILLER">Training, Teaching</option>
+  <option value="FILLER">Music & Performing Arts</option>
+  <option value="FILLER">Services for Youth</option>
+  <option value="FILLER">Services for Older Adults</option>
+  <option value="FILLER">Services for Disabled Adults</option>
+  <option value="FILLER">Recreation & Sports</option>
+  <option value="FILLER">Education</option>
+  <option value="FILLER">Mentoring</option>
+</select>
+</table>         
+         
+
+<h3>A rewarding partnership offers Return On Investment (ROI) opportunities for all involved.  Select <strong>two </strong> reasons you hope partnering could benefit, support or enhance your business/organization? <span class="required">*</span></h3>
+<p>
+   <input name="programs" id="programs"  type="checkbox" value="BETA TEST" />
+We offer a specific product/service.  Working with FCPS could serve as a <strong>BETA TEST</strong>. </p>
+<p>
+   <input name="programs" id="programs"  type="checkbox" value="SPONSORSHIP/ADVERTISING" />
+   We're looking for <strong>SPONSORSHIP/ADVERTISING</strong> opportunities.</p>
+<p>
+   <input name="programs" id="programs"  type="checkbox" value="MARKETING" />
+   We would welcome the <strong>MARKETING</strong> opportunities that partnering often provides. </p>
+<p>
+   <input name="programs" id="programs"  type="checkbox" value="WORKFORCE DEVELOPMENT" />
+   We would like our partnership(s) to focus on <strong>WORKFORCE DEVELOPMENT</strong>. </p>
+<p>
+   <input name="programs" id="programs"  type="checkbox" value="NETWORKING" />
+   We are interested in the <strong>NETWORKING</strong> that partnering with FCPS will provide us. </p>
+<p>
+   <input name="programs" id="programs"  type="checkbox" value="MISSION" />
+   It is a part of our <strong>MISSION</strong> to give and get involved. </p>
+<p>
+   <input name="programs" id="programs"  type="checkbox" value="INTRINSIC VALUE" />
+   We're in it for the <strong>INTRINSIC VALUE</strong> that engagement provides.</p>
+<h3>Which of the following is most important to you as you consider developing a partnership? <span class="required">*</span></h3>
+<p>
+   <input name="benefits" id="benefits"  type="radio" value="Proximity" />
+   <strong>Proximity</strong>: Being close to the school or people with whom  you will partner.</p>
+<p>
+   <input name="benefits" id="benefits"  type="radio" value="ROI" />
+   <strong>ROI</strong>: That there is sufficient Return On Investment  for our time and efforts.</p>
+<p>
+   <input name="benefits" id="benefits"  type="radio" value="Program Activities" />
+   <strong>Program Activities</strong>: We are passionate about the programs we've  selected.</p>
+<p>
+   <input name="benefits" id="benefits"  type="radio" value="Grade Level" />
+   <strong>Grade Level</strong>: It is critical that we work at the selected  grade level.</p>
+<h1>Other Comments:</h1>
+<p>
+   <textarea name="other_comments"  id="other_comments" rows="3" cols="105" ></textarea>
+</p>
+<p>Maximum: 300 characters.</p>
+<p class="submit">
+   <input name="submit" id="submit"  type="submit" value="Submit Application" />
+</p>
+</form>
+
+
+</div>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ 
+<style type="text/css"> 
+#footer {
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #DFD9BD;
+	padding-top: 10px;
+	background-color: #FFF;
+	font-size: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+	width: 978px;
+	clear: both;
+}
+#footer ul {
+	list-style-type: none;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+#footer li {
+	display: inline;
+}
+#footer ul li a {
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333;
+	text-decoration: none;
+	color: #333;
+}
+#footer ul li a:hover {
+	text-decoration: underline;
+}
+ 
+#footer ul li a.last {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+ 
+#footer p {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	color: #333;
+}
+</style>
+
+<div class="footer">
+
+ 
+
+    <img src="images/footer.gif" alt="Office of Public Private Partnerships" width="960" height="149" border="0" usemap="#Map" />
+
+<map name="Map" id="Map">
+
+             <area shape="rect" coords="37,11,172,96" href="default.html" alt="Fairfax County OP3" />
+
+        <area shape="rect" coords="774,83,826,103" href="http://www.facebook.com/FairfaxCommunityConnections?ref=hl" target="_new" alt="Fairfax County Facebook" />
+
+              <area shape="rect" coords="476,99,667,119" href="mailto:partnerships@fairfaxcounty.gov" alt="Email Partnerships@fairfaxcounty.gov" />
+
+    <area shape="rect" coords="825,83,878,103" href="http://www.twitter.com/fairfaxcounty" target="_new" alt="Fairfax County Twitter" />
+
+    <area shape="rect" coords="735,83,774,103" href="http://www.youtube.com/playlist?list=PL9D0cdqzRCqCPquQ6VpN7kYasmtXJSD0x" target="_new" alt="Fairfax County YouTube" />
+
+    <area shape="rect" coords="735,102,828,118" href="http://get.adobe.com/reader/" target="_blank" alt="Download Adobe Reader" />
+
+</map>
+
+  <p></p>
+
+</div>
+
+</div>
+
+<map name="mailto" id="mailto">
+  <area shape="rect" coords="12,30,183,244" href="https://fairfaxcountypartnerships.smugmug.com/Team-Fairfax-Gives-Back/" target="_new" alt="Probono Help for NFPs" />
+</map>
+ 
+</body>
+</html>

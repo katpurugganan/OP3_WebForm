@@ -1,0 +1,126 @@
+@charset "utf-8";
+#header {
+	width: 978px;
+	background-color: #DFDABD;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust: none; /* This is to keep mobile devices such as iPhone from resizing text */
+}
+#logo a img{
+	float: left;
+	position: relative;
+	left: 14px;
+	top: 20px;
+}
+#google_translate_element {
+	float: right;
+	width: 160px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 17px;
+	height: 25px;
+	text-align: right;
+}
+#disclaimer {
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	float: right;
+	margin-top: 17px;
+}
+#disclaimer a {
+	color: #7D100B;
+	text-decoration: none;
+	padding: 2px;
+}
+#disclaimer a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+#searchBar {
+	text-align: right;
+	padding-right: 18px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	float: right;
+	clear: right;
+}
+#searchBar input.button {
+	vertical-align: -8px;
+}
+
+#aboutNav {
+	width: 700px;
+	text-align: right;
+	float: right;
+	clear: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-right: 8px;
+	font-size: 10px;
+	-webkit-text-size-adjust: none;
+}
+#aboutNav p {
+	padding: 0px;
+	margin: 0px;
+}
+#aboutNav p a.navBarText  {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #7D100B;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -1px;
+	border-left: 1px solid #333;
+}
+#aboutNav p a.navBarText:hover {
+	color: #FFF;
+	background-color: #05212F;
+}
+#aboutNav p img  
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#mainNav {
+	width: 978px;
+	font-weight: bold;
+	letter-spacing:0.05em;
+	clear: both;
+}
+#mainNav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	background-color: #7D100B;
+	text-align: center;
+}
+#mainNav ul li {
+	display: inline;
+	height: 40px;
+	font-size: 11px;
+}
+#mainNav ul a.lastRole {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+#mainNav ul li a {
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 9px 10px 10px;
+}
+#mainNav ul li a:hover {
+	background-color: #9f322d;
+}
